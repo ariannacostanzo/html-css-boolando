@@ -176,6 +176,7 @@ header {
     font-weight: bold;
     font-size: 12px;
     padding: 5px 10px;
+    cursor: default;
 }
 
 .card-box-right {
@@ -186,6 +187,7 @@ header {
     font-weight: bold;
     font-size: 12px;
     padding: 5px 10px;
+    cursor: default;
 }
 
 
