@@ -16,6 +16,7 @@ body {
 
 ul {
     padding: 0;
+    margin: 0;
 }
 
 ul li {
@@ -34,6 +35,19 @@ p {
 
 h3 {
     margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+    
 }
 
 /* header */
@@ -107,10 +121,24 @@ header {
 
 .card {
     position: relative;
+    max-width: 480px;
 }
 
 .card-img {
     max-width: 480px;
+    display: block;
+}
+
+.img-not-shown {
+    display: none;
+}
+
+.card:hover .img-shown {
+    display: none;
+}
+
+.card:hover .img-not-shown {
+    display: block;
 }
 
 /* cuore */
@@ -138,7 +166,27 @@ header {
     color: red;
 }
 
+/* sconto e sostenibilità */
 
+.card-box-left {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.card-box-right {
+    position: absolute;
+    bottom: 40px;
+    left: 51px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 10px;
+}
 
 
 /* col-text */
@@ -167,3 +215,45 @@ header {
 }
 
 
+/* footer */
+
+footer {
+    background-color: rgb(29, 28, 28);
+    height: 80px;
+    color: white;
+}
+
+.footer-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+}
+
+/* footer left */
+
+.footer-left h4 {
+    font-size: 16px;
+}
+
+.footer-left ul {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+}
+
+/* footer right */
+
+.footer-right h4 {
+    font-size: 14px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
