@@ -112,7 +112,7 @@ header {
 
 .col {
     padding: 10px;
-    flex-basis: 400px;
+    flex-basis: calc(100% / 3 - 10px * 3);
     margin-bottom: 40px;
 }
 
